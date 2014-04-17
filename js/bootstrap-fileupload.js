@@ -102,7 +102,7 @@
           this.$input.val('')
       }
 
-      this.$preview.html('')
+      this.$preview.html(this.original.preview)
       this.$element.addClass('fileupload-new').removeClass('fileupload-exists')
 
       if (e) {
